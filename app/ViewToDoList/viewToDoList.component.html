@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>View To Do List</h1>
+    <div class="col-lg-7 col-lg-push-2 col-md-7 col-sm-7 col-xs-7 scroll border">
+        <div *ngFor="let data of dataArray" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border">
+            <label class="col-lg-7 col-md-7 col-sm-7 col-xs-7 "> USER ID </label>
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">{{data.userId}}</div>
+            <label class="col-lg-7 col-md-7 col-sm-7 col-xs-7 "> ID </label>
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 ">{{data.id}}</div>
+            <label class="col-lg-7 col-md-7 col-sm-7 col-xs-7 "> Title </label>
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 ">{{data.title}}</div>
+            <label class="col-lg-7 col-md-7 col-sm-7 col-xs-7"> Completed </label>
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">{{data.completed}}</div>
+        </div>
+    </div>
+    <div class="col-lg-7 col-lg-push-2 col-md-12 col-sm-12 col-xs-4 padded">
+        <label>Create To Do</label><input type="text">
+    </div>
+</div>
