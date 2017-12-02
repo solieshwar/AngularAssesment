@@ -1,7 +1,5 @@
 ## angular2-Assesment
 
-To Do 
-
 ### Usage
 - Clone or fork this repository
 - Make sure you have [node.js](https://nodejs.org/) installed version 5+
